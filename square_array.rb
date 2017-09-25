@@ -1,3 +1,4 @@
+
 def square_array(array)
   new_array = Array.new
   array.each do |number|
@@ -5,3 +6,11 @@ def square_array(array)
   end
   new_array
 end
+
+=begin
+def square_array(array)
+  array.collect do |number|
+    number ** 2
+  end
+end
+=end
